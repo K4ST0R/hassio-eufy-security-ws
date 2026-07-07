@@ -9,4 +9,7 @@ codenotary:
   #signer: patrick.broetto@gmail.com
   base_image: notary@home-assistant.io
 args:
-  EUFY_SECURITY_WS_REF: "github:K4ST0R/eufy-security-ws"
+  # Pin sur un commit (pas une branche) : sinon Docker met la couche `npm install`
+  # en cache et ne re-télécharge jamais le nouveau code même si la branche a bougé.
+  # b0418e8 = ws-fork qui épingle le client au commit a3a7e5d (patch MQTT doorbell).
+  EUFY_SECURITY_WS_REF: "github:K4ST0R/eufy-security-ws#b0418e8"
