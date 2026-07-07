@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 # Fork ws (branche) qui dépend du fork eufy-security-client (déchiffrement des clips
 # d'archive ENC_EEC). Buildé automatiquement à l'install via les scripts "prepare".
-ARG EUFY_SECURITY_WS_REF="github:K4ST0R/eufy-security-ws#8a81a7e"
+ARG EUFY_SECURITY_WS_REF="github:K4ST0R/eufy-security-ws#abc1244"
 
 WORKDIR /usr/src/app
 RUN \
