@@ -1,6 +1,6 @@
 name: eufy-security-ws (archive)
 description: eufy-security-ws + déchiffrement des clips d'ARCHIVE (stations mega PPCS_ENC_EEC). Remplace l'add-on standard.
-version: "1.0.4"
+version: "1.0.5"
 slug: "eufy_security_ws_archive"
 url: https://github.com/K4ST0R/hassio-eufy-security-ws
 init: false

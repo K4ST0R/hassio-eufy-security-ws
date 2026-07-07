@@ -11,5 +11,5 @@ codenotary:
 args:
   # Pin sur un commit (pas une branche) : sinon Docker met la couche `npm install`
   # en cache et ne re-télécharge jamais le nouveau code même si la branche a bougé.
-  # abc1244 = ws-fork -> client fc4bd75 (MQTT doorbell + broker régional + archive BINARY + fix keyframes IDR).
-  EUFY_SECURITY_WS_REF: "github:K4ST0R/eufy-security-ws#abc1244"
+  # 9dd827f = ws-fork -> client b88131a (+ fix keyframes AUD/SEI/PPS ; déchiffrement validé ffmpeg).
+  EUFY_SECURITY_WS_REF: "github:K4ST0R/eufy-security-ws#9dd827f"
